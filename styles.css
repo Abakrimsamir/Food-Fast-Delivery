@@ -63,20 +63,19 @@ header {
     border-left: 1px solid gray;
     padding-left: 10px;
     display: flex;
-    height: 100%;
+    height: 50%;
 }
 .ShoppingCart img {
     width: 14px;
 }
 .ShoppingCart p {
-    font-size: 10px;
+    font-size: 7px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    margin-top: 5px;
     color: white;
-    height: 14px;
-    width: 14px;
+    height: 10px;
+    width: 10px;
     text-align: center;
     border-radius: 50%;
     background: #EC2633;
