@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Righteous&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+   background: linear-gradient(304.58deg, #F4ECE1 57.1%, #FCFBF7 145.5%);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 25px;
+}
+.logo{
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0.4;
+}
+.logo h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 28px;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15px;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 249, 240, 0.1);
+    box-shadow: 0px 12px 40px -16px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    width: 250px;
+    height: 39px;
+}
+.searchBar button {
+    border: none;
+    background: none;
+}
+.searchBar button img {
+    width: 14px;
+    padding-right: 10px;
+}
+.searchBar input {
+    border: none;
+    width: 80%;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+.ShoppingCart{
+    border-left: 1px solid gray;
+    padding-left: 10px;
+}
+.ShoppingCart img {
+    width: 14px;
+}
