@@ -35,6 +35,9 @@ header {
     font-weight: 500;
     font-size: 15px;
 }
+.menu a:hover{
+    color: #FF7E00;
+}
 .searchBar{
     display: flex;
     align-items: center;
